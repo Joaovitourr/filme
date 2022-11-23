@@ -1,0 +1,53 @@
+@media screen and (min-width: 900px) {
+   
+    .caixa{
+    align-items: center;
+   display: flex;
+   text-align: center;       
+   margin-left: 10px;
+        
+      }
+      img{
+        width: 500px;
+        height: 500px;
+        
+} section > .caixa{
+    display: inline-flex;
+    margin-top: 15px;
+    margin-right: 10px;;
+  
+}  .box-titulo{
+    display: block;
+    font-size: 40px;
+   padding-right: 2em;
+   text-align: center;
+   max-height: 700px;
+   max-width: 700px;
+
+} .titulo-device, .subtitulo-device{
+    font-size: 2rem;
+
+} .caixa-right{
+    flex-direction: row-reverse;
+} .titulo-right{
+margin-left: 5rem;
+} }
+
+ @media screen and (min-width: 1024px){
+    .container-filmes{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    
+    }  .img-filme{
+        width: 400px;
+        height: 400px;
+      } .container-series{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      } figure:hover{
+        transition: 4s ease-in;
+        transform: rotateY(360deg);
+        cursor: pointer;
+    } 
+    
+    }
